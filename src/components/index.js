@@ -1,0 +1,5 @@
+export { default as HeroProduct } from './HeroProduct'
+export { default as HeroCategory } from './HeroCategory'
+export { default as FeatureProducts } from './FeatureProducts'
+export { default as ProductContainer } from './ProductContainer'
+export { default as BagItem } from './BagItem'

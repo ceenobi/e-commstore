@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none !important;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.slideView {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.slideBox {
+  width: max-content;
+  /* overflow-x: scroll; */
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.scrollbody {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbody::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollTop {
+  scroll-padding-top: 50px !important;
+  padding-top: 5rem;
+}
+
+@media screen and (min-width: 968px) {
+  .adjustImg {
+    width: 400px !important;
+    height: 600px !important;
+  }
+}
