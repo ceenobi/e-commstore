@@ -3,7 +3,6 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import { AiOutlineClose } from 'react-icons/ai'
 import { useNavigate } from 'react-router-dom'
 import useFetchApi from '../hooks/useFetchApi'
-import { Container } from 'react-bootstrap'
 import { ProductContainer } from '../components'
 import Spinner from '../utils/Spinner'
 
@@ -67,7 +66,6 @@ export default function Search() {
           />
         )}
       </div>
-      {/* {loading && <Spinner />} */}
       {(error || filteredData) && (
         <div className='mt-5'>
           {error && <p className='text-center'>{error.message}</p>}
